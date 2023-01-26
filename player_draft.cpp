@@ -15,11 +15,11 @@ int main()
         int pairNum;
         printf("Continue? Yes or No(y/n): ");
         cin >> chs;
-        cout << "Number of Pairs to be Genereated: ";
-        cin >> pairNum;
 
         if (chs == 'y')
         {
+            cout << "Number of Pairs to be Genereated: ";
+            cin >> pairNum;
             int player[pairNum], team[pairNum];
             char nameOfTeam[pairNum];
             int pl, tm;
