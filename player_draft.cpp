@@ -41,7 +41,7 @@ int main()
 
             for (int i = 0; i < pairNum; i++)
             {
-                cout << player[i] << " " << nameOfTeam[i] << endl;
+                cout << player[i] << "-" << nameOfTeam[i] << endl;
                 player[i] = team[i] = nameOfTeam[i] = 0;
             }
         }
